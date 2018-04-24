@@ -1,27 +1,26 @@
-# fire
+# 这是一个vuex + nuxt的项目
 
-> Nuxt.js project
+------
+本项目仅供学习使用，如需转载或下载请注明出处。
+项目技术栈：
 
-## Build Setup
+> * vue & vuex
+> * nuxt
+> * sass
+> * pug模板（jade）
+> * nodejs
+> * mysql
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install*[see note below]
+------
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## 目录解析
 
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-*Note: Due to a bug in yarn's engine version detection code if you are
-using a prerelease version of Node (i.e. v7.6.0-rc.1) you will need to either:
-  1. Use `npm install`
-  2. Run `yarn` with a standard release of Node and then switch back
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+> assets  静态页面中使用到的资源
+> build  nuxt build后的js目录
+> components  静态页面通用组件库
+> layouts  静态页面布局组件
+> page  静态页面组件
+> plugins  插件
+> server  nodejs服务端
+> static  静态页面样式
+> store  vuex store
